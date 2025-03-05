@@ -50,9 +50,9 @@ public class CandidateController(
             }
             return NoContent();
         }
-        catch (NotSupportedException ex)
+        catch (Exception ex)
         {
-            logger.LogError(ex, "Error while creating a candidate.");
+            logger.LogError("Error while creating a candidate. Error message: " + ex.Message);
             return new StatusCodeResult(500);
         }
     }
