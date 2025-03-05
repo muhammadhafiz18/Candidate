@@ -86,3 +86,10 @@ The API includes:
 Configuration can be modified through:
 - `appsettings.json` for production
 - `appsettings.Development.json` for development
+
+## Unit Tests
+Currently, unit tests are not implemented in this project. 
+Future improvements may include unit tests using xUnit and Moq.
+
+## Total time spent
+Around 4-5 hours spent totally for this project
